@@ -16,16 +16,24 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1725908868901
-  login: 1725908865814
+  logout: 1725917786837
+  login: 1725916964386
 money: '0'
 last-account-name: Krittapas11234
 nickname: §x§C§B§2§D§3§E0§x§D§2§3§2§3§D6§x§D§9§3§7§3§Cx§x§E§1§3§D§3§Ca§x§E§8§4§2§3§Br§x§E§F§4§7§3§Am
 logoutlocation:
   world: 164365c4-216a-44b3-8507-4bb14f3f1460
   world-name: world
-  x: 3.564002417802758
+  x: 37.097276307999465
   y: 67.0
-  z: -16.203180065219016
-  yaw: 98.71971893310547
-  pitch: 2.8637638092041016
+  z: -16.065633799095316
+  yaw: 98.30828857421875
+  pitch: 5.231008052825928
+lastlocation:
+  world: 164365c4-216a-44b3-8507-4bb14f3f1460
+  world-name: world
+  x: 17.910506941000655
+  y: 64.0
+  z: 1.1547097503476436
+  yaw: -10.935154914855957
+  pitch: 15.526287078857422
