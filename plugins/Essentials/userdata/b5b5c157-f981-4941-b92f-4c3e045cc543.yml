@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1725908868901
+  login: 1725908865814
+money: '0'
+last-account-name: Krittapas11234
+nickname: §x§C§B§2§D§3§E0§x§D§2§3§2§3§D6§x§D§9§3§7§3§Cx§x§E§1§3§D§3§Ca§x§E§8§4§2§3§Br§x§E§F§4§7§3§Am
+logoutlocation:
+  world: 164365c4-216a-44b3-8507-4bb14f3f1460
+  world-name: world
+  x: 3.564002417802758
+  y: 67.0
+  z: -16.203180065219016
+  yaw: 98.71971893310547
+  pitch: 2.8637638092041016

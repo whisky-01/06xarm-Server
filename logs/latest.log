@@ -1,0 +1,874 @@
+[02:10:37] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.2+9-70; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[02:10:37] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) for Minecraft 1.21.1
+[02:10:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:10:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[02:10:37] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), GroupManager (3.2 (Phoenix)), SkinsRestorer (15.4.2), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[02:10:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:10:40] [ServerMain/INFO]: Loaded 1290 recipes
+[02:10:40] [ServerMain/INFO]: Loaded 1399 advancements
+[02:10:40] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[02:10:40] [Server thread/INFO]: Loading properties
+[02:10:41] [Server thread/INFO]: This server is running Paper version 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[02:10:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:10:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:10:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:10:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 8 worker threads, and population gen parallelism of 8 threads
+[02:10:42] [Server thread/INFO]: Default game type: SURVIVAL
+[02:10:42] [Server thread/INFO]: Generating keypair
+[02:10:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:10:42] [Server thread/INFO]: Using default channel type
+[02:10:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[02:10:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[02:10:42] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loading 6 libraries... please wait
+[02:10:42] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\postgresql\postgresql\42.4.2\postgresql-42.4.2.jar
+[02:10:42] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[02:10:42] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\h2database\h2\2.1.214\h2-2.1.214.jar
+[02:10:42] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[02:10:42] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[02:10:42] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\mariadb\jdbc\mariadb-java-client\3.0.7\mariadb-java-client-3.0.7.jar
+[02:10:42] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[02:10:42] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\slf4j\slf4j-api\2.0.0\slf4j-api-2.0.0.jar
+[02:10:42] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:10:42] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[02:10:42] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[02:10:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@455f08f1]
+[02:10:43] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[02:10:43] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v3.2 (Phoenix)
+[02:10:43] [Server thread/INFO]: [GroupManager] Dependencies: OK
+[02:10:43] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:10:43] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:10:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:10:43] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:10:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:10:43] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[02:10:43] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:10:43] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[02:10:43] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:10:43] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[02:10:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:10:43] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:10:43] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[02:10:44] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[02:10:44] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:10:45] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[02:10:45] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:10:45] [Server thread/INFO]: Preparing level "world"
+[02:10:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[02:10:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:10:46] [Server thread/INFO]: Time elapsed: 506 ms
+[02:10:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:10:46] [Server thread/INFO]: Time elapsed: 61 ms
+[02:10:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:10:46] [Server thread/INFO]: Time elapsed: 47 ms
+[02:10:46] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[02:10:47] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:10:47] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:10:47] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[02:10:47] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:10:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:10:47] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:10:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:10:47] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[02:10:47] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.2 (Phoenix)
+[02:10:47] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 1 ).
+[02:10:47] [Server thread/INFO]: [GroupManager] World Found: world
+[02:10:47] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[02:10:47] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[02:10:47] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[02:10:47] [Server thread/INFO]: [GroupManager] DataSource - YAML
+[02:10:47] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is enabled!
+[02:10:47] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:10:47] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[02:10:47] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[02:10:47] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:10:47] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:10:47] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:10:47] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[02:10:47] [Server thread/INFO]: [spark] Starting background profiler...
+[02:10:47] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[02:10:47] [Server thread/INFO]: Done preparing level "world" (2.155s)
+[02:10:47] [Server thread/INFO]: Running delayed init tasks
+[02:10:47] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:10:47] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[02:10:47] [Server thread/INFO]: Done (11.222s)! For help, type "help"
+[02:10:47] [Server thread/INFO]: Timings Reset
+[02:10:47] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:10:47] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:10:47] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[02:10:48] [Craft Scheduler Thread - 1 - GroupManager/INFO]: [GroupManager] No new version available
+[02:13:32] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[02:13:32] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[02:13:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:13:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:13:32] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:13:32] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:13:32] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.2 (Phoenix)
+[02:13:32] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:13:32] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[02:13:32] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[02:13:32] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[02:13:32] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is disabled!
+[02:13:32] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[02:13:32] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[02:13:32] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:13:32] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[02:13:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:13:32] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[02:13:32] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:13:32] [Server thread/INFO]: Loaded 1290 recipes
+[02:13:32] [Server thread/INFO]: Loaded 1399 advancements
+[02:13:32] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:13:32] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[02:13:32] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), GroupManager (3.2 (Phoenix)), SkinsRestorer (15.4.2), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[02:13:32] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loading 6 libraries... please wait
+[02:13:32] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\postgresql\postgresql\42.4.2\postgresql-42.4.2.jar
+[02:13:32] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[02:13:32] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\h2database\h2\2.1.214\h2-2.1.214.jar
+[02:13:32] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[02:13:32] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[02:13:32] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\mariadb\jdbc\mariadb-java-client\3.0.7\mariadb-java-client-3.0.7.jar
+[02:13:32] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[02:13:32] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\slf4j\slf4j-api\2.0.0\slf4j-api-2.0.0.jar
+[02:13:32] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:13:32] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[02:13:32] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[02:13:33] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@35f362d2]
+[02:13:33] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[02:13:33] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v3.2 (Phoenix)
+[02:13:33] [Server thread/INFO]: [GroupManager] Dependencies: OK
+[02:13:33] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:13:33] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:13:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:13:33] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:13:33] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:13:33] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[02:13:33] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:13:33] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[02:13:33] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:13:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[02:13:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:13:33] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:13:33] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[02:13:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[02:13:34] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[02:13:34] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[02:13:34] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:13:35] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[02:13:35] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:13:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer]     +==================+
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer]     |------------------|
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer]     +==================+
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer]     Version: 15.4.2
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer]     Commit: 210a436
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer]     This is the latest version!
+[02:13:35] [Folia Async Scheduler Thread #4/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:13:36] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:13:36] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:13:36] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[02:13:36] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:13:36] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:13:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:13:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:13:36] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[02:13:36] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.2 (Phoenix)
+[02:13:36] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 1 ).
+[02:13:36] [Server thread/INFO]: [GroupManager] World Found: world
+[02:13:36] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[02:13:36] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[02:13:36] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[02:13:36] [Server thread/INFO]: [GroupManager] DataSource - YAML
+[02:13:36] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is enabled!
+[02:13:36] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:13:36] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[02:13:36] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[02:13:36] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:13:36] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:13:36] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:13:36] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[02:13:36] [Server thread/INFO]: CONSOLE: Reload complete.
+[02:13:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4210ms or 84 ticks behind
+[02:13:36] [Server thread/INFO]: Timings Reset
+[02:13:36] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:13:36] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[02:13:36] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:13:36] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:13:36] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[02:13:37] [Craft Scheduler Thread - 5 - GroupManager/INFO]: [GroupManager] No new version available
+[02:18:24] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[02:18:24] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[02:18:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:18:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:18:25] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:18:25] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:18:25] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.2 (Phoenix)
+[02:18:25] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:18:25] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[02:18:25] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[02:18:25] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[02:18:25] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is disabled!
+[02:18:25] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[02:18:25] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[02:18:25] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:18:25] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[02:18:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:18:25] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[02:18:25] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:18:25] [Server thread/INFO]: Loaded 1290 recipes
+[02:18:25] [Server thread/INFO]: Loaded 1399 advancements
+[02:18:25] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:18:25] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[02:18:25] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), GroupManager (3.2 (Phoenix)), SkinsRestorer (15.4.2), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[02:18:25] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loading 6 libraries... please wait
+[02:18:25] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\postgresql\postgresql\42.4.2\postgresql-42.4.2.jar
+[02:18:25] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[02:18:25] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\h2database\h2\2.1.214\h2-2.1.214.jar
+[02:18:25] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[02:18:25] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[02:18:25] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\mariadb\jdbc\mariadb-java-client\3.0.7\mariadb-java-client-3.0.7.jar
+[02:18:25] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[02:18:25] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\slf4j\slf4j-api\2.0.0\slf4j-api-2.0.0.jar
+[02:18:25] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:18:25] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[02:18:25] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[02:18:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@dc04768]
+[02:18:26] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[02:18:26] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v3.2 (Phoenix)
+[02:18:26] [Server thread/INFO]: [GroupManager] Dependencies: OK
+[02:18:26] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:18:26] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:18:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:18:26] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:18:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:18:26] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[02:18:26] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:18:26] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[02:18:26] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:18:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[02:18:26] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:18:26] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:18:26] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[02:18:26] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[02:18:27] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[02:18:27] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[02:18:27] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:18:27] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[02:18:28] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:18:28] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer]     +==================+
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer]     |------------------|
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer]     +==================+
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer]     Version: 15.4.2
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer]     Commit: 210a436
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer]     This is the latest version!
+[02:18:28] [Folia Async Scheduler Thread #7/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:18:28] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:18:28] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:18:28] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[02:18:28] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:18:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:18:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:18:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:18:28] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[02:18:28] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.2 (Phoenix)
+[02:18:28] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 1 ).
+[02:18:28] [Server thread/INFO]: [GroupManager] World Found: world
+[02:18:28] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[02:18:28] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[02:18:28] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[02:18:28] [Server thread/INFO]: [GroupManager] DataSource - YAML
+[02:18:28] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is enabled!
+[02:18:28] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:18:28] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[02:18:28] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[02:18:28] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:18:28] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:18:28] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:18:28] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[02:18:28] [Server thread/INFO]: CONSOLE: Reload complete.
+[02:18:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3938ms or 78 ticks behind
+[02:18:28] [Server thread/INFO]: Timings Reset
+[02:18:28] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:18:28] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[02:18:28] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:18:29] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:18:29] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] No new version available
+[02:18:29] [Craft Scheduler Thread - 9 - GroupManager/INFO]: [GroupManager] No new version available
+[02:19:17] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[02:19:17] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[02:19:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:19:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:19:17] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:19:17] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:19:17] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.2 (Phoenix)
+[02:19:17] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:19:17] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[02:19:17] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[02:19:17] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[02:19:17] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is disabled!
+[02:19:17] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[02:19:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[02:19:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:19:17] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[02:19:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:19:17] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[02:19:17] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:19:18] [Server thread/INFO]: Loaded 1290 recipes
+[02:19:18] [Server thread/INFO]: Loaded 1399 advancements
+[02:19:18] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:19:18] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[02:19:18] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), GroupManager (3.2 (Phoenix)), SkinsRestorer (15.4.2), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[02:19:18] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loading 6 libraries... please wait
+[02:19:18] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\postgresql\postgresql\42.4.2\postgresql-42.4.2.jar
+[02:19:18] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[02:19:18] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\h2database\h2\2.1.214\h2-2.1.214.jar
+[02:19:18] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[02:19:18] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[02:19:18] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\mariadb\jdbc\mariadb-java-client\3.0.7\mariadb-java-client-3.0.7.jar
+[02:19:18] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[02:19:18] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\slf4j\slf4j-api\2.0.0\slf4j-api-2.0.0.jar
+[02:19:18] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:19:18] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[02:19:18] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[02:19:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@e2dc84b]
+[02:19:19] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[02:19:19] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v3.2 (Phoenix)
+[02:19:19] [Server thread/INFO]: [GroupManager] Dependencies: OK
+[02:19:19] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:19:19] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:19:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:19:19] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:19:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:19:20] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[02:19:20] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:19:20] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[02:19:20] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:19:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[02:19:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:19:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:19:20] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[02:19:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[02:19:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[02:19:21] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[02:19:21] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:19:22] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[02:19:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:19:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[02:19:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:19:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer]     +==================+
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer]     |------------------|
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer]     +==================+
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer]     Version: 15.4.2
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer]     Commit: 210a436
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer]     This is the latest version!
+[02:19:23] [Folia Async Scheduler Thread #10/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:19:23] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[02:19:23] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:19:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:19:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:19:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:19:24] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[02:19:24] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.2 (Phoenix)
+[02:19:24] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 1 ).
+[02:19:24] [Server thread/INFO]: [GroupManager] World Found: world
+[02:19:24] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[02:19:24] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[02:19:24] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[02:19:24] [Server thread/INFO]: [GroupManager] DataSource - YAML
+[02:19:24] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is enabled!
+[02:19:24] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:19:24] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[02:19:24] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[02:19:24] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:19:24] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:19:24] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:19:24] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[02:19:24] [Server thread/INFO]: CONSOLE: Reload complete.
+[02:19:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7293ms or 145 ticks behind
+[02:19:24] [Server thread/INFO]: Timings Reset
+[02:19:24] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:19:24] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[02:19:24] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:19:24] [Craft Scheduler Thread - 12 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:19:24] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] No new version available
+[02:19:25] [Craft Scheduler Thread - 13 - GroupManager/INFO]: [GroupManager] No new version available
+[02:19:50] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[02:19:50] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[02:19:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:19:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:19:50] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:19:50] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:19:50] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.2 (Phoenix)
+[02:19:50] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:19:50] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[02:19:50] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[02:19:50] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[02:19:50] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is disabled!
+[02:19:50] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[02:19:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[02:19:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:19:50] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[02:19:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:19:50] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[02:19:50] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:19:50] [Server thread/INFO]: Loaded 1290 recipes
+[02:19:50] [Server thread/INFO]: Loaded 1399 advancements
+[02:19:50] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:19:50] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[02:19:50] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), GroupManager (3.2 (Phoenix)), SkinsRestorer (15.4.2), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[02:19:51] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loading 6 libraries... please wait
+[02:19:51] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\postgresql\postgresql\42.4.2\postgresql-42.4.2.jar
+[02:19:51] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[02:19:51] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\h2database\h2\2.1.214\h2-2.1.214.jar
+[02:19:51] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[02:19:51] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[02:19:51] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\mariadb\jdbc\mariadb-java-client\3.0.7\mariadb-java-client-3.0.7.jar
+[02:19:51] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[02:19:51] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\slf4j\slf4j-api\2.0.0\slf4j-api-2.0.0.jar
+[02:19:51] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:19:51] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[02:19:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[02:19:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@74028ea2]
+[02:19:52] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[02:19:52] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v3.2 (Phoenix)
+[02:19:52] [Server thread/INFO]: [GroupManager] Dependencies: OK
+[02:19:52] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:19:52] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:19:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:19:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:19:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:19:52] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[02:19:52] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:19:52] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[02:19:52] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:19:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[02:19:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:19:52] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:19:52] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[02:19:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[02:19:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[02:19:54] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[02:19:54] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:19:54] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[02:19:54] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:19:54] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer]     +==================+
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer]     |------------------|
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer]     +==================+
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer]     Version: 15.4.2
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer]     Commit: 210a436
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer]     This is the latest version!
+[02:19:55] [Folia Async Scheduler Thread #13/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:19:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:19:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:19:55] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[02:19:55] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:19:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:19:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:19:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:19:55] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[02:19:55] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.2 (Phoenix)
+[02:19:55] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 1 ).
+[02:19:55] [Server thread/INFO]: [GroupManager] World Found: world
+[02:19:55] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[02:19:55] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[02:19:55] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[02:19:55] [Server thread/INFO]: [GroupManager] DataSource - YAML
+[02:19:55] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is enabled!
+[02:19:55] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:19:55] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[02:19:55] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[02:19:55] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:19:55] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:19:55] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:19:55] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[02:19:55] [Server thread/INFO]: CONSOLE: Reload complete.
+[02:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5593ms or 111 ticks behind
+[02:19:55] [Server thread/INFO]: Timings Reset
+[02:19:55] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:19:55] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[02:19:55] [Craft Scheduler Thread - 18 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:19:55] [Craft Scheduler Thread - 16 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:19:55] [Craft Scheduler Thread - 18 - Vault/INFO]: [Vault] No new version available
+[02:19:56] [Craft Scheduler Thread - 17 - GroupManager/INFO]: [GroupManager] No new version available
+[02:20:21] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[02:20:21] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[02:20:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:20:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:20:21] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:20:21] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:20:21] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.2 (Phoenix)
+[02:20:21] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:20:21] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[02:20:21] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[02:20:21] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[02:20:21] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is disabled!
+[02:20:21] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[02:20:21] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[02:20:21] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:20:21] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[02:20:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:20:21] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[02:20:21] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:20:21] [Server thread/INFO]: Loaded 1290 recipes
+[02:20:22] [Server thread/INFO]: Loaded 1399 advancements
+[02:20:22] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:20:22] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[02:20:22] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), GroupManager (3.2 (Phoenix)), SkinsRestorer (15.4.2), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[02:20:22] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loading 6 libraries... please wait
+[02:20:22] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\postgresql\postgresql\42.4.2\postgresql-42.4.2.jar
+[02:20:22] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[02:20:22] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\h2database\h2\2.1.214\h2-2.1.214.jar
+[02:20:22] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[02:20:22] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[02:20:22] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\mariadb\jdbc\mariadb-java-client\3.0.7\mariadb-java-client-3.0.7.jar
+[02:20:22] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[02:20:22] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\slf4j\slf4j-api\2.0.0\slf4j-api-2.0.0.jar
+[02:20:22] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:20:22] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[02:20:22] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[02:20:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3447db5e]
+[02:20:23] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[02:20:23] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v3.2 (Phoenix)
+[02:20:23] [Server thread/INFO]: [GroupManager] Dependencies: OK
+[02:20:23] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:20:23] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:20:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:20:23] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:20:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:20:23] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[02:20:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:20:23] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[02:20:23] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:20:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[02:20:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:20:23] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:20:23] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[02:20:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[02:20:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[02:20:25] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[02:20:25] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:20:26] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[02:20:27] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:20:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     +==================+
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     |------------------|
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     +==================+
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     Version: 15.4.2
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     Commit: 210a436
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     This is the latest version!
+[02:20:27] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:20:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:20:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:20:27] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[02:20:27] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:20:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:20:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:20:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:20:28] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[02:20:28] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.2 (Phoenix)
+[02:20:28] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 1 ).
+[02:20:28] [Server thread/INFO]: [GroupManager] World Found: world
+[02:20:28] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[02:20:28] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[02:20:28] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[02:20:28] [Server thread/INFO]: [GroupManager] DataSource - YAML
+[02:20:28] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is enabled!
+[02:20:28] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:20:28] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[02:20:28] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[02:20:28] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:20:28] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:20:28] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:20:28] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[02:20:28] [Server thread/INFO]: CONSOLE: Reload complete.
+[02:20:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7571ms or 151 ticks behind
+[02:20:28] [Server thread/INFO]: Timings Reset
+[02:20:28] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:20:28] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[02:20:28] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:20:29] [Craft Scheduler Thread - 20 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:20:29] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] No new version available
+[02:20:29] [Craft Scheduler Thread - 21 - GroupManager/INFO]: [GroupManager] No new version available
+[02:21:13] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[02:21:13] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[02:21:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:21:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:21:13] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:21:13] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:21:13] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.2 (Phoenix)
+[02:21:13] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:21:13] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[02:21:13] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[02:21:13] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[02:21:13] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is disabled!
+[02:21:13] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[02:21:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[02:21:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:21:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[02:21:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:21:13] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[02:21:13] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:21:13] [Server thread/INFO]: Loaded 1290 recipes
+[02:21:13] [Server thread/INFO]: Loaded 1399 advancements
+[02:21:13] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:21:13] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[02:21:13] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), GroupManager (3.2 (Phoenix)), SkinsRestorer (15.4.2), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[02:21:13] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loading 6 libraries... please wait
+[02:21:14] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\postgresql\postgresql\42.4.2\postgresql-42.4.2.jar
+[02:21:14] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[02:21:14] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\h2database\h2\2.1.214\h2-2.1.214.jar
+[02:21:14] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[02:21:14] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[02:21:14] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\mariadb\jdbc\mariadb-java-client\3.0.7\mariadb-java-client-3.0.7.jar
+[02:21:14] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[02:21:14] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\slf4j\slf4j-api\2.0.0\slf4j-api-2.0.0.jar
+[02:21:14] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:21:14] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[02:21:14] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[02:21:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@b78d72]
+[02:21:15] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[02:21:15] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v3.2 (Phoenix)
+[02:21:15] [Server thread/INFO]: [GroupManager] Dependencies: OK
+[02:21:15] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:21:15] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:21:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:21:15] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:21:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:21:15] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[02:21:15] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:21:15] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[02:21:15] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:21:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[02:21:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:21:15] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:21:15] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[02:21:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[02:21:16] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[02:21:17] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[02:21:17] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:21:17] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[02:21:17] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:21:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[02:21:18] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:21:18] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:21:18] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[02:21:18] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer]     +==================+
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer]     |------------------|
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer]     +==================+
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer]     Version: 15.4.2
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer]     Commit: 210a436
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer]     This is the latest version!
+[02:21:18] [Folia Async Scheduler Thread #14/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:21:18] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:21:18] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:21:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:21:18] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[02:21:18] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.2 (Phoenix)
+[02:21:18] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 1 ).
+[02:21:18] [Server thread/INFO]: [GroupManager] World Found: world
+[02:21:18] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[02:21:18] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[02:21:18] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[02:21:18] [Server thread/INFO]: [GroupManager] DataSource - YAML
+[02:21:18] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is enabled!
+[02:21:18] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:21:18] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[02:21:18] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[02:21:18] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:21:18] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:21:18] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:21:18] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[02:21:18] [Server thread/INFO]: CONSOLE: Reload complete.
+[02:21:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5475ms or 109 ticks behind
+[02:21:18] [Server thread/INFO]: Timings Reset
+[02:21:18] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:21:18] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[02:21:18] [Craft Scheduler Thread - 26 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:21:18] [Craft Scheduler Thread - 24 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:21:18] [Craft Scheduler Thread - 26 - Vault/INFO]: [Vault] No new version available
+[02:21:19] [Craft Scheduler Thread - 25 - GroupManager/INFO]: [GroupManager] No new version available
+[02:21:34] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[02:21:34] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[02:21:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:21:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:21:34] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:21:34] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:21:34] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.2 (Phoenix)
+[02:21:34] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:21:34] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[02:21:34] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[02:21:34] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[02:21:34] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is disabled!
+[02:21:34] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[02:21:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[02:21:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:21:34] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[02:21:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:21:34] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[02:21:34] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:21:34] [Server thread/INFO]: Loaded 1290 recipes
+[02:21:34] [Server thread/INFO]: Loaded 1399 advancements
+[02:21:34] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:21:34] [Server thread/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[02:21:34] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), GroupManager (3.2 (Phoenix)), SkinsRestorer (15.4.2), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[02:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loading 6 libraries... please wait
+[02:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\postgresql\postgresql\42.4.2\postgresql-42.4.2.jar
+[02:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[02:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\h2database\h2\2.1.214\h2-2.1.214.jar
+[02:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[02:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[02:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\mariadb\jdbc\mariadb-java-client\3.0.7\mariadb-java-client-3.0.7.jar
+[02:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[02:21:35] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\kritt\Desktop\Minecraft Server\libraries\org\slf4j\slf4j-api\2.0.0\slf4j-api-2.0.0.jar
+[02:21:35] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:21:35] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[02:21:35] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[02:21:36] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5c9c3bb]
+[02:21:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[02:21:36] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v3.2 (Phoenix)
+[02:21:36] [Server thread/INFO]: [GroupManager] Dependencies: OK
+[02:21:36] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:21:36] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:21:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:21:36] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:21:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:21:36] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[02:21:36] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:21:36] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[02:21:36] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:21:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[02:21:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:21:36] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:21:36] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[02:21:37] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[02:21:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[02:21:37] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[02:21:37] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:21:38] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[02:21:38] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:21:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     +==================+
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     |------------------|
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     +==================+
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     Version: 15.4.2
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     Commit: 210a436
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer]     This is the latest version!
+[02:21:38] [Folia Async Scheduler Thread #15/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:21:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:21:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:21:39] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[02:21:39] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:21:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:21:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:21:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:21:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[02:21:39] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.2 (Phoenix)
+[02:21:39] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 1 ).
+[02:21:39] [Server thread/INFO]: [GroupManager] World Found: world
+[02:21:39] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[02:21:39] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[02:21:39] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[02:21:39] [Server thread/INFO]: [GroupManager] DataSource - YAML
+[02:21:39] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is enabled!
+[02:21:39] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:21:39] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[02:21:39] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[02:21:39] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:21:39] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:21:39] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:21:39] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[02:21:39] [Server thread/INFO]: CONSOLE: Reload complete.
+[02:21:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5184ms or 103 ticks behind
+[02:21:39] [Server thread/INFO]: Timings Reset
+[02:21:39] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:21:39] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[02:21:39] [Craft Scheduler Thread - 25 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:21:39] [Craft Scheduler Thread - 24 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:21:39] [Craft Scheduler Thread - 25 - Vault/INFO]: [Vault] No new version available
+[02:21:39] [Craft Scheduler Thread - 27 - GroupManager/INFO]: [GroupManager] No new version available
+[02:38:45] [Server thread/INFO]: Stopping the server
+[02:38:45] [Server thread/INFO]: Stopping server
+[02:38:45] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[02:38:45] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[02:38:45] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.2 (Phoenix)
+[02:38:45] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:38:45] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[02:38:45] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[02:38:45] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[02:38:45] [Server thread/INFO]: [GroupManager] version 3.2 (Phoenix) is disabled!
+[02:38:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[02:38:45] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[02:38:45] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:38:45] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[02:38:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[02:38:45] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[02:38:45] [Server thread/INFO]: Saving players
+[02:38:45] [Server thread/INFO]: Saving worlds
+[02:38:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 31 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[02:38:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[02:38:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:38:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[02:38:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:38:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:38:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:38:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
