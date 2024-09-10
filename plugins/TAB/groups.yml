@@ -2,8 +2,8 @@
 #  tabprefix: "&0&l[&a&lOwner&0&l] &a"
 #  tagprefix: "&2&lOwner &a"
 Player:
-  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
-  tagprefix: "&2&lPlayer &3"
+  tabprefix: "%luckperms-prefix%"
+  tagprefix: ""
 example_group:
   header:
     - "This is an example of per-group header/footer"

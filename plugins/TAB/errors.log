@@ -1,0 +1,17 @@
+10.09.2024 - 09:11:48 - [TAB v4.1.8] An error was thrown when executing task
+10.09.2024 - 09:11:48 - java.lang.IllegalStateException: This instance got discarded because plugin was reloaded. Obtain a new instance.
+10.09.2024 - 09:11:48 - 	at TAB v4.1.8.jar//me.neznamy.tab.shared.features.types.TabFeature.ensureActive(TabFeature.java:26)
+10.09.2024 - 09:11:48 - 	at TAB v4.1.8.jar//me.neznamy.tab.shared.features.PlaceholderManagerImpl.getPlaceholder(PlaceholderManagerImpl.java:385)
+10.09.2024 - 09:11:48 - 	at TAB v4.1.8.jar//me.neznamy.tab.shared.placeholders.types.TabPlaceholder.setPlaceholders(TabPlaceholder.java:134)
+10.09.2024 - 09:11:48 - 	at TAB v4.1.8.jar//me.neznamy.tab.shared.placeholders.types.PlayerPlaceholderImpl.hasValueChanged(PlayerPlaceholderImpl.java:74)
+10.09.2024 - 09:11:48 - 	at TAB v4.1.8.jar//me.neznamy.tab.shared.features.PlaceholderManagerImpl.updatePlayerPlaceholders(PlaceholderManagerImpl.java:152)
+10.09.2024 - 09:11:48 - 	at TAB v4.1.8.jar//me.neznamy.tab.shared.features.PlaceholderManagerImpl.processRefreshResults(PlaceholderManagerImpl.java:96)
+10.09.2024 - 09:11:48 - 	at TAB v4.1.8.jar//me.neznamy.tab.shared.features.PlaceholderManagerImpl.lambda$refresh$0(PlaceholderManagerImpl.java:88)
+10.09.2024 - 09:11:48 - 	at TAB v4.1.8.jar//me.neznamy.tab.shared.cpu.CpuManager.run(CpuManager.java:171)
+10.09.2024 - 09:11:48 - 	at TAB v4.1.8.jar//me.neznamy.tab.shared.cpu.CpuManager.lambda$submit$1(CpuManager.java:96)
+10.09.2024 - 09:11:48 - 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+10.09.2024 - 09:11:48 - 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+10.09.2024 - 09:11:48 - 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+10.09.2024 - 09:11:48 - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+10.09.2024 - 09:11:48 - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+10.09.2024 - 09:11:48 - 	at java.base/java.lang.Thread.run(Thread.java:1570)
