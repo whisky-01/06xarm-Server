@@ -1,0 +1,4 @@
+# Configuration for EventMessage plugin
+
+# Message to show when a player dies
+death-message: "§x§B§9§5§4§7§3§l[ §x§B§D§5§F§6§F§lS§x§C§0§6§4§6§D§ly§x§C§2§6§9§6§A§ls§x§C§4§6§F§6§8§lt§x§C§6§7§4§6§6§le§x§C§8§7§9§6§4§lm §x§C§D§8§4§6§0§l] §x§D§1§8§F§5§B§lN§x§D§3§9§4§5§9§lo§x§D§6§9§A§5§7§lo§x§D§8§9§F§5§5§lb §x§D§C§A§A§5§1§lD§x§D§E§A§F§4§E§le§x§E§1§B§4§4§C§la§x§E§3§B§A§4§A§lt§x§E§5§B§F§4§8§lh"

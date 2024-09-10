@@ -1,183 +1,276 @@
-[15:11:34] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.2+9-70; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[15:11:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) for Minecraft 1.21.1
-[15:11:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:11:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[15:11:34] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), LuckPerms (5.4.131), SkinsRestorer (15.4.2), TAB (4.1.8), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
-[15:11:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:11:37] [ServerMain/INFO]: Loaded 1290 recipes
-[15:11:37] [ServerMain/INFO]: Loaded 1399 advancements
-[15:11:37] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[15:11:37] [Server thread/INFO]: Loading properties
-[15:11:38] [Server thread/INFO]: This server is running Paper version 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[15:11:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:11:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:11:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:11:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 8 worker threads, and population gen parallelism of 8 threads
-[15:11:38] [Server thread/INFO]: Default game type: SURVIVAL
-[15:11:38] [Server thread/INFO]: Generating keypair
-[15:11:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:11:39] [Server thread/INFO]: Using default channel type
-[15:11:39] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:11:39] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:11:39] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
-[15:11:39] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[15:11:39] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
-[15:11:39] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
-[15:11:41] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@35bf7dcd]
-[15:11:41] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.8
-[15:11:41] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
-[15:11:41] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[15:11:41] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
-[15:11:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:11:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[15:11:42] [Server thread/INFO]:         __    
-[15:11:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
-[15:11:42] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:11:42] [Server thread/INFO]: 
-[15:11:42] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:11:42] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:11:42] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:11:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:11:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1501ms)
-[15:11:43] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[15:11:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[15:11:43] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[15:11:43] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[15:11:43] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[15:11:43] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
-[15:11:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[15:11:43] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[15:11:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[15:11:46] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
-[15:11:48] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[15:11:48] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[15:11:50] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:11:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:11:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:11:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:11:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:11:50] [Server thread/INFO]: Preparing level "world"
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[15:11:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:11:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:11:51] [Server thread/INFO]: Time elapsed: 907 ms
-[15:11:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:11:52] [Server thread/INFO]: Time elapsed: 237 ms
-[15:11:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:11:52] [Server thread/INFO]: Time elapsed: 158 ms
-[15:11:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
-[15:11:53] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:11:53] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:11:53] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
-[15:11:53] [Server thread/INFO]: [Essentials] Using locale en_US
-[15:11:53] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:11:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:11:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[15:11:54] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[15:11:54] [Server thread/INFO]: [TAB] Enabling TAB v4.1.8
-[15:11:54] [Server thread/INFO]: [TAB] Loaded NMS hook in 150ms
-[15:11:54] [Server thread/INFO]: [TAB] Enabled in 581ms
-[15:11:55] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[15:11:55] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[15:11:55] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
-[15:11:55] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[15:11:55] [Server thread/INFO]: [spark] Starting background profiler...
-[15:11:55] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[15:11:55] [Server thread/INFO]: Done preparing level "world" (5.193s)
-[15:11:55] [Server thread/INFO]: Running delayed init tasks
-[15:11:55] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[15:11:55] [Server thread/INFO]: Done (21.929s)! For help, type "help"
-[15:11:55] [Server thread/INFO]: Timings Reset
-[15:11:55] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
-[15:11:55] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
-[15:11:55] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:11:58] [User Authenticator #0/INFO]: UUID of player Krittapas11234 is b566e751-52f9-30a0-b25d-9fd950cd0898
-[15:11:59] [Server thread/INFO]: Krittapas11234[/127.0.0.1:54016] logged in with entity id 60 at ([world]2.0393627527574125, 89.0, -2.9914373180829106)
-[15:11:59] [Server thread/INFO]: { Owner } 06xarm joined the game
-[15:12:04] [User Authenticator #0/INFO]: UUID of player whisky01 is dced7d35-4363-319a-b509-f755bec7d82f
-[15:12:05] [Server thread/INFO]: whisky01[/127.0.0.1:54020] logged in with entity id 188 at ([world]3.0492665070774594, 88.0, -7.953373803268903)
-[15:12:05] [Server thread/INFO]: { Member } whisky01 joined the game
-[15:12:13] [Server thread/INFO]: whisky01 lost connection: Disconnected
-[15:12:13] [Server thread/INFO]: { Member } whisky01 left the game
-[15:12:15] [User Authenticator #0/INFO]: UUID of player whisky01 is dced7d35-4363-319a-b509-f755bec7d82f
-[15:12:15] [Server thread/INFO]: whisky01[/127.0.0.1:54034] logged in with entity id 206 at ([world]3.3217808885738282, 89.0, -1.300000011920929)
-[15:12:15] [Server thread/INFO]: { Member } whisky01 joined the game
-[15:13:23] [Server thread/INFO]: Krittapas11234 issued server command: /lp applyedits yTrgU09oQR
-[15:13:33] [Server thread/INFO]: Krittapas11234 issued server command: /lp applyedits yTrgU09oQR --force
-[15:13:33] [luckperms-command-executor/INFO]: [LP] LOG > (Krittapas11234) [G] (default)
-[15:13:33] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials true
-[15:13:51] [Server thread/INFO]: whisky01 lost connection: Disconnected
-[15:13:51] [Server thread/INFO]: { Member } whisky01 left the game
-[15:13:53] [User Authenticator #1/INFO]: UUID of player whisky01 is dced7d35-4363-319a-b509-f755bec7d82f
-[15:13:53] [Server thread/INFO]: whisky01[/127.0.0.1:54105] logged in with entity id 327 at ([world]2.488237816428795, 87.0, -12.829170365942916)
-[15:13:53] [Server thread/INFO]: { Member } whisky01 joined the game
-[15:15:36] [Server thread/INFO]: Krittapas11234 issued server command: /lp editor
-[15:18:00] [Server thread/INFO]: Krittapas11234 issued server command: /time set day
-[15:18:21] [Server thread/INFO]: Krittapas11234 issued server command: /heal whisky01
-[15:18:25] [Server thread/INFO]: Krittapas11234 issued server command: /clear
-[15:18:35] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1 **
-[15:18:37] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1 *
-[15:18:45] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1 whisky01
-[15:19:53] [luckperms-worker-2/INFO]: [LP] LOG > (Krittapas11234) [G] (default)
-[15:19:53] [luckperms-worker-2/INFO]: [LP] LOG > webeditor add essentials.home true
-[15:21:39] [Server thread/INFO]: whisky01 lost connection: Disconnected
-[15:21:39] [Server thread/INFO]: { Member } whisky01 left the game
-[15:21:44] [User Authenticator #2/INFO]: UUID of player whisky01 is dced7d35-4363-319a-b509-f755bec7d82f
-[15:21:44] [Server thread/INFO]: whisky01[/127.0.0.1:54654] logged in with entity id 879 at ([world]3.6945231608906917, 90.0, -0.160006321090991)
-[15:21:44] [Server thread/INFO]: { Member } whisky01 joined the game
-[15:21:55] [Server thread/INFO]: whisky01 lost connection: Disconnected
-[15:21:55] [Server thread/INFO]: { Member } whisky01 left the game
-[15:21:56] [User Authenticator #2/INFO]: UUID of player whisky01 is dced7d35-4363-319a-b509-f755bec7d82f
-[15:21:56] [Server thread/INFO]: whisky01[/127.0.0.1:54668] logged in with entity id 899 at ([world]7.594911224857538, 90.0, 0.6568755581982566)
-[15:21:56] [Server thread/INFO]: { Member } whisky01 joined the game
-[15:22:02] [Server thread/INFO]: whisky01 lost connection: Disconnected
-[15:22:02] [Server thread/INFO]: { Member } whisky01 left the game
-[15:23:03] [Server thread/INFO]: Stopping the server
-[15:23:03] [Server thread/INFO]: Stopping server
-[15:23:03] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
-[15:23:03] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[15:23:03] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
-[15:23:03] [Server thread/INFO]: [TAB] Disabling TAB v4.1.8
-[15:23:03] [Server thread/INFO]: [TAB] Disabled in 0ms
-[15:23:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
-[15:23:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[15:23:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
-[15:23:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[15:23:03] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[15:23:03] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
-[15:23:03] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:23:03] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:23:03] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:23:03] [Server thread/INFO]: Saving players
-[15:23:03] [Server thread/INFO]: Krittapas11234 lost connection: Server closed
-[15:23:03] [Server thread/INFO]: Krittapas11234 left the game
-[15:23:03] [Server thread/INFO]: Saving worlds
-[15:23:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Saved 31 block chunks, 139 entity chunks, 0 poi chunks in world 'world' in 0.11s
-[15:23:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[15:23:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:23:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
-[15:23:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:23:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:23:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:23:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:36:19] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.2+9-70; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[16:36:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) for Minecraft 1.21.1
+[16:36:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:36:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\eventMessage-1.0.0.jar'...
+[16:36:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\eventMessage-1.0.0.jar' in 194ms.
+[16:36:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[16:36:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), EventMessage (1.0.0), LuckPerms (5.4.131), SkinsRestorer (15.4.2), TAB (4.1.8), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[16:36:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:36:23] [ServerMain/INFO]: Loaded 1290 recipes
+[16:36:23] [ServerMain/INFO]: Loaded 1399 advancements
+[16:36:23] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[16:36:23] [Server thread/INFO]: Loading properties
+[16:36:23] [Server thread/INFO]: This server is running Paper version 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[16:36:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:36:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:36:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:36:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 8 worker threads, and population gen parallelism of 8 threads
+[16:36:24] [Server thread/INFO]: Default game type: SURVIVAL
+[16:36:24] [Server thread/INFO]: Generating keypair
+[16:36:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:36:24] [Server thread/INFO]: Using default channel type
+[16:36:24] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:36:24] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:36:25] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[16:36:25] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[16:36:25] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[16:36:25] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[16:36:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@33be0197]
+[16:36:28] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.8
+[16:36:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[16:36:28] [Server thread/INFO]: [EventMessage] Loading server plugin EventMessage v1.0.0
+[16:36:28] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[16:36:28] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[16:36:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:36:28] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[16:36:28] [Server thread/INFO]:         __    
+[16:36:28] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[16:36:28] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:36:28] [Server thread/INFO]: 
+[16:36:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:36:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:36:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:36:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:36:29] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1448ms)
+[16:36:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:36:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:36:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:36:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:36:30] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:36:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[16:36:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:36:30] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:36:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[16:36:32] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[16:36:34] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[16:36:34] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[16:36:35] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:36:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:36:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:36:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:36:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:36:35] [Server thread/INFO]: Preparing level "world"
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:36:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:36:37] [Server thread/INFO]: Time elapsed: 766 ms
+[16:36:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:36:37] [Server thread/INFO]: Time elapsed: 142 ms
+[16:36:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:36:37] [Server thread/INFO]: Time elapsed: 201 ms
+[16:36:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[16:36:38] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:36:38] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:36:39] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[16:36:39] [Server thread/INFO]: [Essentials] Using locale en_US
+[16:36:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:36:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:36:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:36:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:36:39] [Server thread/INFO]: [TAB] Enabling TAB v4.1.8
+[16:36:40] [Server thread/INFO]: [TAB] Loaded NMS hook in 127ms
+[16:36:40] [Server thread/INFO]: [TAB] Enabled in 542ms
+[16:36:40] [Server thread/INFO]: [EventMessage] Enabling EventMessage v1.0.0
+[16:36:40] [Server thread/INFO]: [EventMessage] EventMessage plugin has been enabled!
+[16:36:40] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[16:36:40] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:36:40] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[16:36:40] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:36:41] [Server thread/INFO]: [spark] Starting background profiler...
+[16:36:41] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[16:36:41] [Server thread/INFO]: Done preparing level "world" (5.694s)
+[16:36:41] [Server thread/INFO]: Running delayed init tasks
+[16:36:41] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:36:41] [Server thread/INFO]: Done (22.517s)! For help, type "help"
+[16:36:41] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:36:41] [Server thread/INFO]: Timings Reset
+[16:36:41] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:36:41] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[16:37:30] [User Authenticator #0/INFO]: UUID of player Krittapas11234 is b566e751-52f9-30a0-b25d-9fd950cd0898
+[16:37:31] [Server thread/INFO]: Krittapas11234[/127.0.0.1:57381] logged in with entity id 46 at ([world]6.803815082187439, 92.0, 10.550292043514924)
+[16:37:31] [Server thread/INFO]: { Owner } 06xarm joined the game
+[16:37:37] [Server thread/INFO]: Krittapas11234 issued server command: /pl
+[16:37:48] [Server thread/INFO]: Krittapas11234 issued server command: /kill Krittapas11234
+[16:39:31] [Server thread/INFO]: Krittapas11234 issued server command: /kill Krittapas11234
+[16:39:50] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[16:39:50] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[16:39:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:39:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:39:50] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[16:39:50] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[16:39:50] [Server thread/INFO]: [EventMessage] Disabling EventMessage v1.0.0
+[16:39:50] [Server thread/INFO]: [EventMessage] EventMessage plugin has been disabled!
+[16:39:50] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[16:39:50] [Server thread/INFO]: [TAB] Disabling TAB v4.1.8
+[16:39:50] [Server thread/INFO]: [TAB] Disabled in 0ms
+[16:39:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[16:39:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:39:50] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[16:39:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:39:50] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[16:39:50] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:39:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[16:39:50] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:39:50] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:39:50] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:39:51] [Server thread/INFO]: Loaded 1290 recipes
+[16:39:51] [Server thread/INFO]: Loaded 1399 advancements
+[16:39:51] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:39:51] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
+[16:39:51] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[16:39:51] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[16:39:51] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), EventMessage (1.0.0), LuckPerms (5.4.131), SkinsRestorer (15.4.2), TAB (4.1.8), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[16:39:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[16:39:51] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[16:39:51] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[16:39:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[16:39:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@301d48e6]
+[16:39:52] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.8
+[16:39:52] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[16:39:52] [Server thread/INFO]: [EventMessage] Loading server plugin EventMessage v1.0.0
+[16:39:52] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[16:39:52] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[16:39:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:39:52] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[16:39:52] [Server thread/INFO]:         __    
+[16:39:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[16:39:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:39:52] [Server thread/INFO]: 
+[16:39:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:39:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:39:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:39:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:39:52] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 397ms)
+[16:39:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:39:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:39:52] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:39:52] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:39:53] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:39:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[16:39:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:39:53] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:39:53] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[16:39:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[16:39:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[16:39:54] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[16:39:54] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[16:39:54] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[16:39:54] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:39:54] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     +==================+
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     |------------------|
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     +==================+
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     Version: 15.4.2
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     Commit: 210a436
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     This is the latest version!
+[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:39:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:39:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:39:55] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[16:39:55] [Server thread/INFO]: [Essentials] Using locale en_US
+[16:39:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:39:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:39:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:39:55] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:39:55] [Server thread/INFO]: [TAB] Enabling TAB v4.1.8
+[16:39:55] [Server thread/INFO]: [TAB] Loaded NMS hook in 46ms
+[16:39:56] [Server thread/INFO]: [TAB] Enabled in 376ms
+[16:39:56] [Server thread/INFO]: [EventMessage] Enabling EventMessage v1.0.0
+[16:39:56] [Server thread/INFO]: [EventMessage] EventMessage plugin has been enabled!
+[16:39:56] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[16:39:56] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:39:56] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[16:39:56] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:39:56] [Paper Async Command Builder Thread Pool - 2/ERROR]: Caught previously unhandled exception :
+[16:39:56] [Paper Async Command Builder Thread Pool - 2/ERROR]: Paper Async Command Builder Thread Pool - 2
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[16:39:56] [Server thread/INFO]: CONSOLE: Reload complete.
+[16:39:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5559ms or 111 ticks behind
+[16:39:56] [Server thread/INFO]: Timings Reset
+[16:39:56] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:39:56] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:39:56] [Craft Scheduler Thread - 11 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:39:56] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[16:40:32] [Server thread/INFO]: Krittapas11234 lost connection: Disconnected
+[16:40:32] [Server thread/INFO]: { Owner } 06xarm left the game
+[16:40:39] [Server thread/INFO]: Stopping the server
+[16:40:39] [Server thread/INFO]: Stopping server
+[16:40:39] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[16:40:39] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[16:40:39] [Server thread/INFO]: [EventMessage] Disabling EventMessage v1.0.0
+[16:40:39] [Server thread/INFO]: [EventMessage] EventMessage plugin has been disabled!
+[16:40:39] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[16:40:39] [Server thread/INFO]: [TAB] Disabling TAB v4.1.8
+[16:40:39] [Server thread/INFO]: [TAB] Disabled in 0ms
+[16:40:39] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[16:40:39] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:40:39] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[16:40:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:40:39] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:40:39] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[16:40:39] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:40:39] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:40:39] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:40:39] [Server thread/INFO]: Saving players
+[16:40:40] [Server thread/INFO]: Saving worlds
+[16:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saved 752 block chunks, 748 entity chunks, 0 poi chunks in world 'world' in 0.85s
+[16:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[16:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[16:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
