@@ -72,9 +72,9 @@ playerlist-objective:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
 belowname-objective:
-  enabled: false
+  enabled: true
   number: "%health%"
-  text: "&cHealth"
+  text: "&c❤ health"
   fancy-display-players: "&c%health%"
   fancy-display-default: "NPC"
   disable-condition: "%world%=disabledworld"
