@@ -1,276 +1,491 @@
-[16:36:19] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.2+9-70; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[16:36:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) for Minecraft 1.21.1
-[16:36:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:36:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\eventMessage-1.0.0.jar'...
-[16:36:20] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\eventMessage-1.0.0.jar' in 194ms.
-[16:36:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[16:36:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), EventMessage (1.0.0), LuckPerms (5.4.131), SkinsRestorer (15.4.2), TAB (4.1.8), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
-[16:36:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:36:23] [ServerMain/INFO]: Loaded 1290 recipes
-[16:36:23] [ServerMain/INFO]: Loaded 1399 advancements
-[16:36:23] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[16:36:23] [Server thread/INFO]: Loading properties
-[16:36:23] [Server thread/INFO]: This server is running Paper version 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[16:36:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:36:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:36:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:36:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 8 worker threads, and population gen parallelism of 8 threads
-[16:36:24] [Server thread/INFO]: Default game type: SURVIVAL
-[16:36:24] [Server thread/INFO]: Generating keypair
-[16:36:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:36:24] [Server thread/INFO]: Using default channel type
-[16:36:24] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[16:36:24] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[16:36:25] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
-[16:36:25] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[16:36:25] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
-[16:36:25] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
-[16:36:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@33be0197]
-[16:36:28] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.8
-[16:36:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
-[16:36:28] [Server thread/INFO]: [EventMessage] Loading server plugin EventMessage v1.0.0
-[16:36:28] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[16:36:28] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
-[16:36:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:36:28] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[16:36:28] [Server thread/INFO]:         __    
-[16:36:28] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
-[16:36:28] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:36:28] [Server thread/INFO]: 
-[16:36:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:36:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:36:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:36:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:36:29] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1448ms)
-[16:36:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:36:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[16:36:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:36:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:36:30] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[16:36:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
-[16:36:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:36:30] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[16:36:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[16:36:32] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
-[16:36:34] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[16:36:34] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[16:36:35] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[16:36:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:36:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:36:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:36:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:36:35] [Server thread/INFO]: Preparing level "world"
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[16:36:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:36:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:36:37] [Server thread/INFO]: Time elapsed: 766 ms
-[16:36:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:36:37] [Server thread/INFO]: Time elapsed: 142 ms
-[16:36:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:36:37] [Server thread/INFO]: Time elapsed: 201 ms
-[16:36:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
-[16:36:38] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[16:36:38] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[16:36:39] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
-[16:36:39] [Server thread/INFO]: [Essentials] Using locale en_US
-[16:36:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[16:36:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[16:36:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[16:36:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[16:36:39] [Server thread/INFO]: [TAB] Enabling TAB v4.1.8
-[16:36:40] [Server thread/INFO]: [TAB] Loaded NMS hook in 127ms
-[16:36:40] [Server thread/INFO]: [TAB] Enabled in 542ms
-[16:36:40] [Server thread/INFO]: [EventMessage] Enabling EventMessage v1.0.0
-[16:36:40] [Server thread/INFO]: [EventMessage] EventMessage plugin has been enabled!
-[16:36:40] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[16:36:40] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[16:36:40] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
-[16:36:40] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[16:36:41] [Server thread/INFO]: [spark] Starting background profiler...
-[16:36:41] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[16:36:41] [Server thread/INFO]: Done preparing level "world" (5.694s)
-[16:36:41] [Server thread/INFO]: Running delayed init tasks
-[16:36:41] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[16:36:41] [Server thread/INFO]: Done (22.517s)! For help, type "help"
-[16:36:41] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
-[16:36:41] [Server thread/INFO]: Timings Reset
-[16:36:41] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[16:36:41] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
-[16:37:30] [User Authenticator #0/INFO]: UUID of player Krittapas11234 is b566e751-52f9-30a0-b25d-9fd950cd0898
-[16:37:31] [Server thread/INFO]: Krittapas11234[/127.0.0.1:57381] logged in with entity id 46 at ([world]6.803815082187439, 92.0, 10.550292043514924)
-[16:37:31] [Server thread/INFO]: { Owner } 06xarm joined the game
-[16:37:37] [Server thread/INFO]: Krittapas11234 issued server command: /pl
-[16:37:48] [Server thread/INFO]: Krittapas11234 issued server command: /kill Krittapas11234
-[16:39:31] [Server thread/INFO]: Krittapas11234 issued server command: /kill Krittapas11234
-[16:39:50] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[16:39:50] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[16:39:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:39:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:39:50] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
-[16:39:50] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[16:39:50] [Server thread/INFO]: [EventMessage] Disabling EventMessage v1.0.0
-[16:39:50] [Server thread/INFO]: [EventMessage] EventMessage plugin has been disabled!
-[16:39:50] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
-[16:39:50] [Server thread/INFO]: [TAB] Disabling TAB v4.1.8
-[16:39:50] [Server thread/INFO]: [TAB] Disabled in 0ms
-[16:39:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
-[16:39:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:39:50] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
-[16:39:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[16:39:50] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
-[16:39:50] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[16:39:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
-[16:39:50] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[16:39:50] [Server thread/INFO]: [LuckPerms] Closing storage...
-[16:39:50] [Server thread/INFO]: [LuckPerms] Goodbye!
-[16:39:51] [Server thread/INFO]: Loaded 1290 recipes
-[16:39:51] [Server thread/INFO]: Loaded 1399 advancements
-[16:39:51] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:39:51] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
-[16:39:51] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+[21:17:44] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.2+9-70; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[21:17:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) for Minecraft 1.21.1
+[21:17:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:17:44] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\Holograms-2.13.jar'...
+[21:17:44] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\ItemEdit-3.5.2.jar'...
+[21:17:45] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\LevelledMobs-4.1.2.b60.jar'...
+[21:17:45] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\Multiverse-Core-4.3.1.jar'...
+[21:17:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Holograms-2.13.jar' in 375ms.
+[21:17:45] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\ItemEdit-3.5.2.jar' in 407ms.
+[21:17:45] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Multiverse-Core-4.3.1.jar' in 375ms.
+[21:17:45] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\LevelledMobs-4.1.2.b60.jar' in 799ms.
+[21:17:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[21:17:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
+ - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), EventMessage (1.0.0), Holograms (2.13), ItemEdit (3.5.2), LevelledMobs (4.1.2 b60), LuckPerms (5.4.131), Multiverse-Core (4.3.1-b861), SkinsRestorer (15.4.2), TAB (4.1.8), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
+[21:17:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:17:48] [ServerMain/INFO]: Loaded 1290 recipes
+[21:17:49] [ServerMain/INFO]: Loaded 1399 advancements
+[21:17:49] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[21:17:49] [Server thread/INFO]: Loading properties
+[21:17:49] [Server thread/INFO]: This server is running Paper version 1.21.1-74-master@971a7a5 (2024-09-08T20:24:20Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[21:17:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:17:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:17:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:17:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 8 worker threads, and population gen parallelism of 8 threads
+[21:17:50] [Server thread/INFO]: Default game type: SURVIVAL
+[21:17:50] [Server thread/INFO]: Generating keypair
+[21:17:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:17:50] [Server thread/INFO]: Using default channel type
+[21:17:50] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:17:50] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:17:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[21:17:51] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[21:17:51] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
+[21:17:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
+[21:17:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@653cbe]
+[21:17:52] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[21:17:52] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.8
+[21:17:52] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
+[21:17:52] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.1.2 b60
+[21:17:52] [Server thread/INFO]: [LevelledMobs] Loading commands
+[21:17:52] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.5.2
+[21:17:52] [Server thread/INFO]: [Holograms] Loading server plugin Holograms v2.13
+[21:17:52] [Server thread/INFO]: [EventMessage] Loading server plugin EventMessage v1.0.0
+[21:17:52] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[21:17:52] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
+[21:17:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:17:52] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[21:17:52] [Server thread/INFO]:         __    
+[21:17:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[21:17:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:17:52] [Server thread/INFO]: 
+[21:17:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:17:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:17:53] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:17:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:17:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 673ms)
+[21:17:53] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:17:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:17:53] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:17:53] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:17:53] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:17:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
+[21:17:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:17:53] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[21:17:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[21:17:54] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
+[21:17:54] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[21:17:55] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[21:17:55] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:17:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:17:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:17:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:17:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:17:55] [Server thread/INFO]: Preparing level "world"
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.2
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 210a436
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:17:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:17:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:17:56] [Server thread/INFO]: Time elapsed: 482 ms
+[21:17:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:17:56] [Server thread/INFO]: Time elapsed: 52 ms
+[21:17:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:17:56] [Server thread/INFO]: Time elapsed: 46 ms
+[21:17:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
+[21:17:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:17:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:17:57] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
+[21:17:57] [Server thread/INFO]: [Essentials] Using locale en_US
+[21:17:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:17:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:17:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:17:57] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[21:17:57] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[21:17:57] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[21:17:57] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[21:17:57] [Server thread/WARN]: [Multiverse-Core] Cannot load worlds.yml
+[21:17:57] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 3503396871523486896
+[21:17:57] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 3303017807852224007
+[21:17:57] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 3303017807852224007
+[21:17:57] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[21:17:57] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[21:17:57] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[21:17:57] [Server thread/INFO]: [TAB] Enabling TAB v4.1.8
+[21:17:57] [Server thread/INFO]: [TAB] Loaded NMS hook in 66ms
+[21:17:57] [Server thread/INFO]: [TAB] Enabled in 286ms
+[21:17:57] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.1.2 b60
+[21:17:57] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[21:17:57] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.1 for nametag support
+[21:17:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[21:17:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[21:17:57] [Server thread/INFO]: [LevelledMobs] File Loader: File 'settings.yml' doesn't exist, creating it now...
+[21:17:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[21:17:57] [Server thread/INFO]: [LevelledMobs] File Loader: File 'messages.yml' doesn't exist, creating it now...
+[21:17:57] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[21:17:57] [Server thread/INFO]: [LevelledMobs] File Loader: File 'externalplugins.yml' doesn't exist, creating it now...
+[21:17:58] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[21:17:58] [Server thread/INFO]: [LevelledMobs] File Loader: File 'rules.yml' doesn't exist, creating it now...
+[21:17:58] [Server thread/INFO]: [LevelledMobs] Current rules hash: cb2333130b5cd27fb056e621bfdbb4ec28bf7d7227966db48bb82dc40372aefd
+[21:17:58] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[21:17:58] [Server thread/INFO]: [LevelledMobs] File Loader: File 'customdrops.yml' doesn't exist, creating it now...
+[21:17:58] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[21:17:58] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[21:17:58] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[21:17:58] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 222ms)
+[21:17:58] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.5.2
+[21:17:58] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[21:17:58] [Server thread/INFO]: [ItemEdit] Updating configuration version (7 -> 8)
+[21:17:58] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[21:17:58] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[21:17:58] [Server thread/INFO]: [ItemEdit] # Enabled (took 238 ms)
+[21:17:58] [Server thread/INFO]: [Holograms] Enabling Holograms v2.13
+[21:17:58] [Server thread/ERROR]: [Holograms] The plugin couldn't create the NMS controller instance and has been disabled. This is likelydue to no supported Hologram implementation for your CraftBukkit/Spigot version.
+[21:17:58] [Server thread/INFO]: [Holograms] Disabling Holograms v2.13
+[21:17:58] [Server thread/INFO]: [EventMessage] Enabling EventMessage v1.0.0
+[21:17:58] [Server thread/INFO]: [EventMessage] EventMessage plugin has been enabled!
+[21:17:58] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[21:17:58] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[21:17:58] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[21:17:58] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[21:17:58] [Server thread/INFO]: [spark] Starting background profiler...
+[21:17:58] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[21:17:58] [Server thread/INFO]: Done preparing level "world" (3.048s)
+[21:17:58] [Server thread/INFO]: Running delayed init tasks
+[21:17:58] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:17:58] [Server thread/INFO]: Done (14.748s)! For help, type "help"
+[21:17:58] [Server thread/INFO]: Timings Reset
+[21:17:58] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] Checking for Updates ... 
+[21:17:58] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:17:58] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] No new version available
+[21:18:09] [User Authenticator #0/INFO]: UUID of player Krittapas11234 is b566e751-52f9-30a0-b25d-9fd950cd0898
+[21:18:10] [Server thread/INFO]: Krittapas11234[/127.0.0.1:64472] logged in with entity id 68 at ([world]-9.693766931561862, 84.0, -25.56541900966678)
+[21:18:10] [Server thread/INFO]: { Owner } 06xarm joined the game
+[21:18:14] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[21:18:17] [Server thread/INFO]: Krittapas11234 issued server command: /time set 0
+[21:19:23] [Server thread/INFO]: Krittapas11234 has made the advancement [Monster Hunter]
+[21:20:01] [Server thread/INFO]: Krittapas11234 issued server command: /weather
+[21:20:02] [Server thread/INFO]: Krittapas11234 issued server command: /weather
+[21:20:04] [Server thread/INFO]: Krittapas11234 issued server command: /weather sun
+[21:21:25] [Server thread/INFO]: Krittapas11234 issued server command: /pl
+[21:21:30] [Server thread/INFO]: Krittapas11234 issued server command: /holo
+[21:21:30] [Server thread/ERROR]: Command exception: /holo
+org.bukkit.command.CommandException: Cannot execute command 'holo' in plugin Holograms v2.13 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1629) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[16:39:51] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[16:39:51] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - Essentials (2.21.0-dev+111-b54c8c1), EssentialsChat (2.21.0-dev+111-b54c8c1), EssentialsSpawn (2.21.0-dev+111-b54c8c1), EventMessage (1.0.0), LuckPerms (5.4.131), SkinsRestorer (15.4.2), TAB (4.1.8), Vault (1.7.3-b131), WorldEdit (7.3.6+6892-3d660b8)
-[16:39:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
-[16:39:51] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[16:39:51] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+111-b54c8c1
-[16:39:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.6+6892-3d660b8
-[16:39:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@301d48e6]
-[16:39:52] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.8
-[16:39:52] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.2
-[16:39:52] [Server thread/INFO]: [EventMessage] Loading server plugin EventMessage v1.0.0
-[16:39:52] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[16:39:52] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+111-b54c8c1
-[16:39:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:39:52] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[16:39:52] [Server thread/INFO]:         __    
-[16:39:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
-[16:39:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:39:52] [Server thread/INFO]: 
-[16:39:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:39:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:39:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:39:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:39:52] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 397ms)
-[16:39:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:39:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[16:39:52] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:39:52] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:39:53] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[16:39:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.6+6892-3d660b8
-[16:39:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:39:53] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[16:39:53] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
-[16:39:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[16:39:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.2
-[16:39:54] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[16:39:54] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[16:39:54] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[16:39:54] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[16:39:54] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+111-b54c8c1
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     +==================+
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     |------------------|
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     +==================+
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     Version: 15.4.2
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     Commit: 210a436
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer]     This is the latest version!
-[16:39:55] [Folia Async Scheduler Thread #5/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:39:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[16:39:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[16:39:55] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
-[16:39:55] [Server thread/INFO]: [Essentials] Using locale en_US
-[16:39:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[16:39:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[16:39:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[16:39:55] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[16:39:55] [Server thread/INFO]: [TAB] Enabling TAB v4.1.8
-[16:39:55] [Server thread/INFO]: [TAB] Loaded NMS hook in 46ms
-[16:39:56] [Server thread/INFO]: [TAB] Enabled in 376ms
-[16:39:56] [Server thread/INFO]: [EventMessage] Enabling EventMessage v1.0.0
-[16:39:56] [Server thread/INFO]: [EventMessage] EventMessage plugin has been enabled!
-[16:39:56] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[16:39:56] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[16:39:56] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+111-b54c8c1
-[16:39:56] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[16:39:56] [Paper Async Command Builder Thread Pool - 2/ERROR]: Caught previously unhandled exception :
-[16:39:56] [Paper Async Command Builder Thread Pool - 2/ERROR]: Paper Async Command Builder Thread Pool - 2
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+[21:21:36] [Server thread/INFO]: Krittapas11234 issued server command: /hologram
+[21:21:36] [Server thread/ERROR]: Command exception: /hologram
+org.bukkit.command.CommandException: Cannot execute command 'hologram' in plugin Holograms v2.13 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1629) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[16:39:56] [Server thread/INFO]: CONSOLE: Reload complete.
-[16:39:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5559ms or 111 ticks behind
-[16:39:56] [Server thread/INFO]: Timings Reset
-[16:39:56] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[16:39:56] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
-[16:39:56] [Craft Scheduler Thread - 11 - Essentials/INFO]: [Essentials] Fetching version information...
-[16:39:56] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
-[16:40:32] [Server thread/INFO]: Krittapas11234 lost connection: Disconnected
-[16:40:32] [Server thread/INFO]: { Owner } 06xarm left the game
-[16:40:39] [Server thread/INFO]: Stopping the server
-[16:40:39] [Server thread/INFO]: Stopping server
-[16:40:39] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
-[16:40:39] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
-[16:40:39] [Server thread/INFO]: [EventMessage] Disabling EventMessage v1.0.0
-[16:40:39] [Server thread/INFO]: [EventMessage] EventMessage plugin has been disabled!
-[16:40:39] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
-[16:40:39] [Server thread/INFO]: [TAB] Disabling TAB v4.1.8
-[16:40:39] [Server thread/INFO]: [TAB] Disabled in 0ms
-[16:40:39] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
-[16:40:39] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:40:39] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
-[16:40:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[16:40:39] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[16:40:39] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
-[16:40:39] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[16:40:39] [Server thread/INFO]: [LuckPerms] Closing storage...
-[16:40:39] [Server thread/INFO]: [LuckPerms] Goodbye!
-[16:40:39] [Server thread/INFO]: Saving players
-[16:40:40] [Server thread/INFO]: Saving worlds
-[16:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saved 752 block chunks, 748 entity chunks, 0 poi chunks in world 'world' in 0.85s
-[16:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
-[16:40:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:40:40] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[16:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:40:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:21:39] [Server thread/INFO]: Krittapas11234 issued server command: /holograms:holo
+[21:21:39] [Server thread/ERROR]: Command exception: /holograms:holo
+org.bukkit.command.CommandException: Cannot execute command 'holograms:holo' in plugin Holograms v2.13 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1629) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-74-971a7a5]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[21:21:55] [Server thread/INFO]: Krittapas11234 issued server command: /pl
+[21:23:32] [Server thread/INFO]: Krittapas11234 issued server command: /ie
+[21:23:39] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant aqua_affinity
+[21:23:58] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[21:24:00] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[21:24:21] [Server thread/INFO]: Krittapas11234 issued server command: /killall
+[21:24:23] [Server thread/INFO]: Krittapas11234 issued server command: /killall all
+[21:24:49] [Server thread/INFO]: Krittapas11234 issued server command: /killall mobs
+[21:24:54] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[21:25:02] [Server thread/INFO]: Named entity Sheep['kuy'/505, uuid='57798ac2-6e5b-44c0-9976-d7b89abe6efb', l='ServerLevel[world]', x=44.55, y=67.00, z=251.80, cpos=[2, 15], tl=6060, v=true] died: kuy was slain by Krittapas11234
+[21:25:08] [Server thread/INFO]: Named entity Sheep['kuy'/507, uuid='098bed29-6607-4f1c-809a-04b40a6efccf', l='ServerLevel[world]', x=41.03, y=69.00, z=251.96, cpos=[2, 15], tl=6190, v=true] died: kuy was slain by Krittapas11234
+[21:25:21] [Server thread/INFO]: Named entity Pig['kuy'/231, uuid='b8e0b904-835e-4b6b-a188-ce0fb57d1efa', l='ServerLevel[world]', x=100.97, y=71.00, z=220.29, cpos=[6, 13], tl=11866, v=true] died: kuy was slain by Krittapas11234
+[21:25:43] [Server thread/INFO]: Krittapas11234 issued server command: /itemedit
+[21:30:50] [Server thread/INFO]: Krittapas11234 issued server command: /itemedit name
+[21:31:07] [Server thread/INFO]: Krittapas11234 issued server command: /itemedit rename &#CB2D3E&lK&#DD3A3C&lU&#EF473A&lY
+[21:33:29] [Server thread/INFO]: Krittapas11234 issued server command: //set cyan_terracotta
+[21:34:09] [Server thread/INFO]: Krittapas11234 issued server command: //set cyan_terracotta
+[21:34:21] [Server thread/INFO]: Krittapas11234 issued server command: //set 0
+[21:34:33] [Server thread/INFO]: Krittapas11234 issued server command: //set 0
+[21:35:10] [Server thread/INFO]: Krittapas11234 issued server command: //set cyan_terracotta
+[21:35:22] [Server thread/INFO]: Krittapas11234 issued server command: //set 0
+[21:35:32] [Server thread/INFO]: Krittapas11234 issued server command: //set cyan_terracotta
+[21:35:38] [Server thread/INFO]: Krittapas11234 issued server command: //set 0
+[21:35:54] [Server thread/INFO]: Krittapas11234 issued server command: //set cyan_terracotta
+[21:35:59] [Server thread/INFO]: Krittapas11234 issued server command: //set 0
+[21:36:15] [Server thread/INFO]: Krittapas11234 issued server command: //set cyan_terracotta
+[21:36:28] [Server thread/INFO]: Krittapas11234 issued server command: /give Krittapas11234 debug_stick
+[21:38:07] [Server thread/WARN]: Krittapas11234 moved too quickly! 13.018650352715326,-1.482043423976009,0.017104011728577007
+[21:38:29] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[21:38:31] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[21:38:33] [Server thread/INFO]: Krittapas11234 issued server command: /gm 3
+[21:38:35] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[21:46:36] [Server thread/INFO]: Krittapas11234 issued server command: /setjail
+[21:46:43] [Server thread/INFO]: Krittapas11234 issued server command: /setjail test
+[21:46:50] [Server thread/INFO]: Krittapas11234 issued server command: /jail Krittapas11234
+[21:46:58] [Server thread/INFO]: Krittapas11234 issued server command: /jail
+[21:47:09] [Server thread/INFO]: Krittapas11234 issued server command: /jail Krittapas11234 test 15m
+[21:47:18] [Server thread/INFO]: Krittapas11234 issued server command: /jails
+[21:47:21] [Server thread/INFO]: Krittapas11234 issued server command: /jail
+[21:49:44] [Server thread/INFO]: Krittapas11234 issued server command: /ie rename &#FCD05C&l{&#FBC95A&lL&#FBC259&le&#FABB57&lg&#F9B555&le&#F9AE54&ln&#F8A752&ld &#F7994E&lo&#F6924D&lf &#F58549&lt&#F47E48&lh&#F47746&le &#F26943&lS&#F26241&lw&#F15C3F&lo&#F0553D&lr&#F04E3C&ld&#EF473A&l}
+[21:49:52] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[21:50:02] [Server thread/INFO]: Krittapas11234 issued server command: /back
+[21:50:02] [Server thread/WARN]: Krittapas11234 moved too quickly! 110.06120031661315,-21.0,154.3183212386155
+[21:50:02] [Server thread/WARN]: Krittapas11234 moved too quickly! 110.06120031661315,-21.0,154.3183212386155
+[21:50:02] [Server thread/WARN]: Krittapas11234 moved too quickly! 110.06120031661315,-21.0,154.3183212386155
+[21:50:05] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[21:50:29] [Server thread/INFO]: Krittapas11234 issued server command: /godmode
+[21:50:31] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[21:50:33] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[21:50:43] [Server thread/INFO]: Named entity Skeleton['KUY'/4602, uuid='3e285c89-be5e-49bb-b1d9-e8b4fe4c0ddf', l='ServerLevel[world]', x=126.70, y=70.00, z=163.30, cpos=[7, 10], tl=10981, v=true] died: KUY was shot by KUY
+[21:50:55] [Server thread/INFO]: Krittapas11234 issued server command: /heal
+[21:50:58] [Server thread/INFO]: Krittapas11234 issued server command: /feed
+[21:51:28] [Server thread/INFO]: Krittapas11234 issued server command: /give Krittapas11234 skeleton_spawn_egg 64
+[21:51:51] [Server thread/INFO]: Named entity Skeleton['KUY'/4578, uuid='e11d212a-7630-40aa-863b-2b6a793dadd9', l='ServerLevel[world]', x=114.30, y=70.00, z=161.70, cpos=[7, 10], tl=12464, v=true] died: KUY was shot by KUY
+[21:52:23] [Server thread/INFO]: Krittapas11234 issued server command: /give * diamondarmor 1
+[21:52:37] [Server thread/INFO]: Krittapas11234 issued server command: /clear
+[21:52:49] [Server thread/INFO]: Krittapas11234 issued server command: /ie
+[21:53:02] [Server thread/INFO]: Krittapas11234 issued server command: /ie durability 0
+[21:53:41] [Server thread/INFO]: Named entity Skeleton['KUY'/4588, uuid='4d3bd4a8-3855-4c38-bd9f-cdb67e50189f', l='ServerLevel[world]', x=116.69, y=70.00, z=157.30, cpos=[7, 9], tl=14624, v=true] died: KUY was shot by KUY
+[21:54:31] [Server thread/INFO]: Krittapas11234 issued server command: /give * diamondarmor 1
+[21:54:39] [Server thread/INFO]: Krittapas11234 issued server command: /clear
+[21:55:02] [Server thread/INFO]: Named entity Skeleton['KUY'/4580, uuid='2eb89a10-a4e2-46e8-8305-b591112adb10', l='ServerLevel[world]', x=114.70, y=70.00, z=159.30, cpos=[7, 9], tl=16274, v=true] died: KUY was shot by KUY
+[21:55:23] [Server thread/INFO]: Krittapas11234 issued server command: /give * diamondharmor 1
+[21:55:35] [Server thread/INFO]: Krittapas11234 issued server command: /give * diamondhat
+[21:55:35] [Server thread/INFO]: Krittapas11234 has made the advancement [Cover Me with Diamonds]
+[21:55:53] [Server thread/INFO]: Named entity Skeleton['KUY'/4576, uuid='bad6c781-8498-4069-95da-7cb2ce579efc', l='ServerLevel[world]', x=114.70, y=70.00, z=163.70, cpos=[7, 10], tl=17315, v=true] died: KUY was shot by Skeleton
+[21:55:55] [Server thread/INFO]: Krittapas11234 issued server command: /clear
+[21:56:02] [Server thread/INFO]: Krittapas11234 issued server command: /give * diamondhat 1
+[21:56:12] [Server thread/INFO]: Krittapas11234 issued server command: /ie armortrim CLEAR
+[21:56:18] [Server thread/INFO]: Krittapas11234 issued server command: /ie armortrim redstone
+[21:56:25] [Server thread/INFO]: Krittapas11234 issued server command: /ie armortrim redstone host
+[21:56:41] [Server thread/INFO]: Krittapas11234 issued server command: /ie armortrim CLEAR
+[21:56:47] [Server thread/INFO]: Krittapas11234 issued server command: /ie unbreakable
+[21:57:14] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore add
+[21:57:19] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore add &#FCD05C&l{&#FBC95A&lL&#FBC259&le&#FABB57&lg&#F9B555&le&#F9AE54&ln&#F8A752&ld &#F7994E&lo&#F6924D&lf &#F58549&lt&#F47E48&lh&#F47746&le &#F26943&lS&#F26241&lw&#F15C3F&lo&#F0553D&lr&#F04E3C&ld&#EF473A&l}
+[21:57:37] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore replace
+[21:57:47] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore copybook
+[21:57:54] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore remove
+[21:57:56] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore remove 1
+[21:58:02] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore remove last
+[21:59:25] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore add &#FCD05C&lL&#FBC95E&le&#FBC35F&lg&#FABC61&le&#FAB663&ln&#F9AF64&ld&#F9A966&la&#F8A268&lr&#F89C6A&ly &#F78F6D&lR&#F6886F&la&#F68270&lt&#F57B72&le
+[21:59:30] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore remove last
+[21:59:49] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore add last
+[21:59:55] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore add &#FCD05C&lL&#FBC95E&le&#FBC35F&lg&#FABC61&le&#FAB663&ln&#F9AF64&ld&#F9A966&la&#F8A268&lr&#F89C6A&ly &#F78F6D&lR&#F6886F&la&#F68270&lt&#F57B72&le
+[22:00:13] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore remove 1
+[22:00:39] [Server thread/INFO]: Krittapas11234 issued server command: /ie banner add base black
+[22:00:50] [Server thread/INFO]: Krittapas11234 issued server command: /ie rarity epic
+[22:01:04] [Server thread/INFO]: Krittapas11234 issued server command: /ie rarity rare
+[22:01:09] [Server thread/INFO]: Krittapas11234 issued server command: /ie rarity uncommon
+[22:01:14] [Server thread/INFO]: Krittapas11234 issued server command: /ie rarity common
+[22:01:18] [Server thread/INFO]: Krittapas11234 issued server command: /ie rarity epic
+[22:02:44] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant mending
+[22:02:58] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant protection 10
+[22:03:22] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant respiration 10
+[22:03:33] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant aqua_affinity 10
+[22:03:45] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant thorns 10
+[22:04:26] [Server thread/INFO]: Krittapas11234 issued server command: /ie axolotltype blue
+[22:04:38] [Server thread/INFO]: Krittapas11234 issued server command: /ie bookenchant aqua_affinity
+[22:05:13] [Server thread/INFO]: Krittapas11234 issued server command: /ie food addeffect health_boost infinite 5 true
+[22:05:50] [Server thread/INFO]: Krittapas11234 issued server command: /ie hidetooltip true
+[22:05:56] [Server thread/INFO]: Krittapas11234 issued server command: /ie hidetooltip false
+[22:06:17] [Server thread/INFO]: Krittapas11234 issued server command: /ie hide enchants
+[22:06:22] [Server thread/INFO]: Krittapas11234 issued server command: /ie hide enchants
+[22:06:41] [Server thread/INFO]: Krittapas11234 issued server command: /give * diamondplate 1
+[22:06:57] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore add &#FCD05C&lL&#FBC95E&le&#FBC35F&lg&#FABC61&le&#FAB663&ln&#F9AF64&ld&#F9A966&la&#F8A268&lr&#F89C6A&ly &#F78F6D&lR&#F6886F&la&#F68270&lt&#F57B72&le
+[22:07:07] [Server thread/INFO]: Krittapas11234 issued server command: /ie rarity epic
+[22:07:25] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant mending
+[22:07:31] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant protection 10
+[22:07:36] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant thorns 10
+[22:07:45] [Server thread/INFO]: Krittapas11234 issued server command: /ie unbreakable
+[22:08:05] [Server thread/INFO]: Krittapas11234 issued server command: /give * diamondboots 1
+[22:08:13] [Server thread/INFO]: Krittapas11234 issued server command: /ie lore add &#FCD05C&lL&#FBC95E&le&#FBC35F&lg&#FABC61&le&#FAB663&ln&#F9AF64&ld&#F9A966&la&#F8A268&lr&#F89C6A&ly &#F78F6D&lR&#F6886F&la&#F68270&lt&#F57B72&le
+[22:08:19] [Server thread/INFO]: Krittapas11234 issued server command: /ie rarity epic
+[22:08:27] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant mending
+[22:08:32] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant protection 10
+[22:09:23] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant feather_falling 10
+[22:09:49] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant depth_strider 10
+[22:09:56] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant soul_speed 10
+[22:10:05] [Server thread/INFO]: Krittapas11234 issued server command: /ie enchant thorns 10
+[22:10:28] [Server thread/INFO]: Krittapas11234 issued server command: /ie potioneffect add regeneration infinite 10 true
+[22:10:53] [Server thread/INFO]: Named entity Skeleton['KUY'/4589, uuid='2f67b837-f098-4635-86eb-e49832d35fd3', l='ServerLevel[world]', x=118.70, y=70.00, z=157.30, cpos=[7, 9], tl=35252, v=true] died: KUY was shot by KUY
+[22:11:11] [Server thread/INFO]: Named entity Skeleton['KUY'/4571, uuid='ece07205-6ee9-43a8-943d-26a57462b4d9', l='ServerLevel[world]', x=114.30, y=70.00, z=169.70, cpos=[7, 10], tl=35715, v=true] died: KUY was shot by KUY
+[22:11:13] [Server thread/INFO]: Named entity Skeleton['KUY'/4593, uuid='3e2eb7ac-86ad-4a2b-ac97-6f23f7761c8c', l='ServerLevel[world]', x=122.30, y=70.00, z=157.70, cpos=[7, 9], tl=35638, v=true] died: KUY was shot by KUY
+[22:11:32] [Server thread/INFO]: Named entity Skeleton['KUY'/4587, uuid='c4984b0c-d460-4930-808b-5129e28abf5e', l='ServerLevel[world]', x=114.30, y=70.00, z=157.70, cpos=[7, 9], tl=36067, v=true] died: KUY was shot by Skeleton
+[22:11:38] [Server thread/INFO]: Named entity Skeleton['KUY'/4568, uuid='c5de48d4-a2da-4292-ad63-1b9f136ef87e', l='ServerLevel[world]', x=118.70, y=70.00, z=169.70, cpos=[7, 10], tl=36257, v=true] died: KUY was shot by KUY
+[22:11:47] [Server thread/INFO]: Named entity Skeleton['KUY'/4575, uuid='bb16645a-cce7-4bc0-bd68-8ee5f4a6c846', l='ServerLevel[world]', x=114.50, y=70.00, z=165.30, cpos=[7, 10], tl=36405, v=true] died: KUY was shot by Skeleton
+[22:11:54] [Server thread/INFO]: Krittapas11234 issued server command: /ie custommodeldata 9
+[22:12:18] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute add armor
+[22:12:41] [Server thread/INFO]: Named entity Skeleton['KUY'/4448, uuid='871d5c68-67d6-4b21-8b26-e1135f71f711', l='ServerLevel[world]', x=124.30, y=70.00, z=169.70, cpos=[7, 10], tl=38589, v=true] died: KUY was shot by KUY
+[22:12:49] [Server thread/INFO]: Krittapas11234 issued server command: /ie glow
+[22:13:34] [Server thread/INFO]: Krittapas11234 issued server command: /ie maxdurability
+[22:13:37] [Server thread/INFO]: Krittapas11234 issued server command: /ie maxdurability 1
+[22:14:02] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute add armor
+[22:14:25] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute add armor 10 add_number armor
+[22:15:36] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute add max_health 10 multiply_scalar_1 mainhand
+[22:16:18] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute remove
+[22:16:26] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute remove max_health
+[22:17:06] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute add attack_damage 10 add_scalar mainhand
+[22:17:16] [Server thread/INFO]: Krittapas11234 issued server command: /gm 3
+[22:17:19] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[22:17:22] [Server thread/INFO]: Named entity Skeleton['KUY'/4567, uuid='4a1c3c89-d5cc-48e5-ba11-06a351855a31', l='ServerLevel[world]', x=120.70, y=70.00, z=169.70, cpos=[7, 10], tl=43152, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:25] [Server thread/INFO]: Named entity Skeleton['KUY'/4565, uuid='ba174d3a-272d-4a73-92bf-38d7c32ca62b', l='ServerLevel[world]', x=122.30, y=70.00, z=169.70, cpos=[7, 10], tl=43219, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:27] [Server thread/INFO]: Named entity Skeleton['KUY'/4470, uuid='008fd56a-a53e-4803-8088-88423249bbdd', l='ServerLevel[world]', x=126.30, y=70.00, z=167.70, cpos=[7, 10], tl=44108, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:28] [Server thread/INFO]: Named entity Skeleton['KUY'/4377, uuid='4888dcb9-ef0c-45dd-8d5c-6860da3f1486', l='ServerLevel[world]', x=126.70, y=70.00, z=169.70, cpos=[7, 10], tl=44962, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:29] [Server thread/INFO]: Named entity Skeleton['KUY'/4604, uuid='d8a07bbf-90b6-43e3-b069-fcb95078b4ac', l='ServerLevel[world]', x=126.70, y=70.00, z=165.30, cpos=[7, 10], tl=43106, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:32] [Server thread/INFO]: Named entity Skeleton['KUY'/4600, uuid='069564d0-231c-4e09-8f77-0608a9aebab7', l='ServerLevel[world]', x=126.70, y=70.00, z=161.30, cpos=[7, 10], tl=43176, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:33] [Server thread/INFO]: Named entity Skeleton['KUY'/4598, uuid='c07fb536-1dd2-4b25-a9af-09f82735a434', l='ServerLevel[world]', x=126.70, y=70.00, z=159.30, cpos=[7, 9], tl=43205, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:37] [Server thread/INFO]: Named entity Skeleton['KUY'/4597, uuid='a5c115ab-15bf-487f-8a3c-f70d8cded956', l='ServerLevel[world]', x=126.70, y=70.00, z=157.30, cpos=[7, 9], tl=43286, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:38] [Server thread/INFO]: Named entity Skeleton['KUY'/4596, uuid='771aee8b-03c6-431e-8b94-6f48353f1e6b', l='ServerLevel[world]', x=124.30, y=70.00, z=157.30, cpos=[7, 9], tl=43326, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:45] [Server thread/INFO]: Named entity Skeleton['KUY'/4591, uuid='ed163c57-3744-4d47-93fe-07de4041c70e', l='ServerLevel[world]', x=120.30, y=70.00, z=157.30, cpos=[7, 9], tl=43489, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:48] [Server thread/INFO]: Named entity Skeleton['KUY'/4573, uuid='2d0e17d1-93b7-4fca-af9a-99745cae4257', l='ServerLevel[world]', x=114.30, y=70.00, z=167.30, cpos=[7, 10], tl=43642, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:17:50] [Server thread/INFO]: Named entity Skeleton['KUY'/4569, uuid='673f788c-bdc6-4620-b954-7b676d0a75a6', l='ServerLevel[world]', x=116.30, y=70.00, z=169.70, cpos=[7, 10], tl=43699, v=true] died: KUY was slain by Krittapas11234 using [{Legend of the Sword}]
+[22:18:42] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute add armor 1000 add_number armor
+[22:18:48] [Server thread/INFO]: Krittapas11234 issued server command: /ie durability 528
+[22:19:33] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute add attack_damage 100 add_number
+[22:20:03] [Server thread/INFO]: Krittapas11234 issued server command: /gm 3
+[22:20:06] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[22:20:36] [Server thread/INFO]: Krittapas11234 issued server command: /summon minecraft:wither
+[22:20:36] [Server thread/INFO]: [Krittapas11234: Summoned new Wither]
+[22:21:00] [Server thread/INFO]: Krittapas11234 issued server command: /summon minecraft:wither
+[22:21:00] [Server thread/INFO]: [Krittapas11234: Summoned new Wither]
+[22:21:21] [Server thread/INFO]: Krittapas11234 issued server command: /summon minecraft:wither
+[22:21:21] [Server thread/INFO]: [Krittapas11234: Summoned new Wither]
+[22:21:31] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[22:21:34] [Server thread/INFO]: Krittapas11234 issued server command: /gm 3
+[22:21:40] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[22:21:54] [Server thread/INFO]: Krittapas11234 issued server command: /gm 3
+[22:22:00] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[22:22:22] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[22:22:28] [Server thread/INFO]: Krittapas11234 issued server command: /godmode
+[22:23:15] [Server thread/INFO]: Krittapas11234 issued server command: /heal
+[22:23:37] [Server thread/INFO]: Krittapas11234 issued server command: /gm 3
+[22:23:41] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[22:23:58] [Server thread/INFO]: Krittapas11234 issued server command: /ie unbreakable
+[22:24:30] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[22:24:34] [Server thread/INFO]: Krittapas11234 issued server command: /gm 3
+[22:24:36] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[22:25:27] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[22:25:55] [Server thread/INFO]: Krittapas11234 issued server command: /ie attribute add max_absorption 10 add_number mainhand
+[22:26:44] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[22:26:50] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[22:27:05] [Server thread/INFO]: Krittapas11234 issued server command: /ie food addeffect regeneration infinite 10
+[22:28:09] [Server thread/INFO]: Krittapas11234 issued server command: /gm 1
+[22:28:39] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0\
+[22:28:40] [Server thread/INFO]: Krittapas11234 issued server command: /gm 0
+[22:32:21] [Server thread/INFO]: Stopping the server
+[22:32:21] [Server thread/INFO]: Stopping server
+[22:32:21] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+111-b54c8c1
+[22:32:21] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+111-b54c8c1
+[22:32:21] [Server thread/INFO]: [EventMessage] Disabling EventMessage v1.0.0
+[22:32:21] [Server thread/INFO]: [EventMessage] EventMessage plugin has been disabled!
+[22:32:21] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.5.2
+[22:32:21] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.1.2 b60
+[22:32:21] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[22:32:21] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[22:32:21] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 8ms)
+[22:32:21] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.2
+[22:32:21] [Server thread/INFO]: [TAB] Disabling TAB v4.1.8
+[22:32:21] [Craft Scheduler Thread - 4 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[22:32:21] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[22:32:21] [Server thread/INFO]: [TAB] Disabled in 4ms
+[22:32:21] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[22:32:21] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.6+6892-3d660b8
+[22:32:21] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:32:21] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+111-b54c8c1
+[22:32:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[22:32:21] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:32:21] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[22:32:21] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:32:21] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:32:21] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:32:21] [Server thread/INFO]: Saving players
+[22:32:21] [Server thread/INFO]: Krittapas11234 lost connection: Server closed
+[22:32:21] [Server thread/INFO]: Krittapas11234 left the game
+[22:32:21] [Server thread/INFO]: Saving worlds
+[22:32:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:32:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:32:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:32:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:32:22] [Server thread/INFO]: [ChunkHolderManager] Saved 394 block chunks, 154 entity chunks, 0 poi chunks in world 'world' in 0.37s
+[22:32:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:32:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:32:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:32:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:32:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:32:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:32:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:32:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:32:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:32:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[22:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
